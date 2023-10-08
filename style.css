@@ -1,0 +1,30 @@
+
+/* MAIOR RESPONSIVIDADE ENTRE ELEMENTOS */
+.container {
+    background-color: blue;
+    height: 300px;
+
+    /* CONFIGURAÇÃO DO DISPLAY */
+    display: flex; /* Propriedade que altera a forma como os elementos serão alocados */
+
+    /* DIREÇÃO DOS ELEMENTOS */
+    flex-direction: row; /* Propriedade que altera a direção do conteúdo */
+
+    /* TORNA OS ITEMS QUEBRADOS OU NÃO */
+    flex-wrap: wrap; /* Propriedade que altera a quebra dos items */
+   
+    /* ESPAÇAMENTO ENTRE OS ELEMENTOS */
+    justify-content: space-around; /* Propriedade que altera os espaçamentos entre elementos */
+
+    /*  ALINHAMENTO DOS ITEMS */
+    align-items: center; /* Propriedade que altera o alinhamento dos items (podendo ser usada em conjunto com o justify-content)
+
+    /*OBS: Quando  o flex-direction for column o align-items inverterá os papeis com o justify-content*/
+}
+
+.element {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+}
